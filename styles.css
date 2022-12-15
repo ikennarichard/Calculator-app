@@ -1,0 +1,46 @@
+
+/* calculator styles */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+
+
+.calculator_ {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+}
+
+
+.calculator_ button {
+    width: 5em;
+    height: 5em;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+}
+
+
+.screen {
+    grid-column: 1 / 5;
+    background-color: black;
+    color: white;
+    font-size: 4em;
+    padding: 0 5px;
+}
+
+
+.clear {
+    background-color: rgba(255, 0, 34, 0.732);
+    color: aliceblue;
+    
+}
