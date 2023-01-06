@@ -168,8 +168,21 @@ document.addEventListener('keydown', (e) => {
   //use backspace to delete items
   if (e.key == 'Backspace') {
   screen.innerText = screen.innerText.slice(0, -1)
-
   }
+  if (e.key >= 0 || e.key<= 9 ) {
+    screen.innerText += e.key
+  }
+  if (e.key == 'Escape') {
+    powerScreen()
+  }
+
+  const keyChain = 'x-/*+'.split('')
+
+  for (let item of keyChain) {
+    if (e.key == item) 
+    screen.innerText += item
+  }
+  
 })
 
 

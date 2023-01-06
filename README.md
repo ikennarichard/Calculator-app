@@ -1,1 +1,1 @@
-This Readme file is part of the Odin Project, Odin Project is a wb devlopment course aimed at equipping users with job ready skills. This is accomplished through challenges and projects
+This Readme file is part of the Odin Project Curicullum, Odin Project is a web devlopment program aimed at equipping people with job ready skills to succeed. This is accomplished through challenges and projects
