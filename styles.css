@@ -15,32 +15,68 @@ body {
 
 
 .calculator_ {
+    width: 320px;
+    overflow: hidden;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 7px;
 }
 
 
 .calculator_ button {
-    width: 5em;
+    width: 4em;
     height: 5em;
     border: none;
     outline: none;
     font-size: 0.9em;
+    cursor: pointer;
 }
 
 
 .screen {
-    grid-column: 1 / 5;
+    grid-column: 1 / 6;
     background-color: black;
     color: white;
-    font-size: 4em;
-    padding: 0 5px;
+    padding: 0 .5em;
+    height: 100px;
+    justify-content: space-around;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+
+#main_screen {
+    font-size: 1.7em;
+    letter-spacing: 4px;
+}
+
+
+.top_screen {
+    font-size: .9rem;
+    color: gainsboro;
+    letter-spacing: 2px;
+}
+
+
+.power {
+    background-color:midnightblue;
+    color: white;
+}
+
 
 
 .clear {
     background-color: rgba(255, 0, 34, 0.732);
     color: aliceblue;
-    
+    grid-column: 3 / 6;
+    grid-row: 5;
+    display: block;
+    font-size: 2.5em;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
+
